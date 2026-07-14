@@ -60,18 +60,18 @@ def main():
 
     txt_path = report.generate_report(file_results, overall_results)
     csv_path = report.generate_csv(file_results, overall_results)
-    html_path = report.generate_html(file_results, overall_results)
+
 
     logger.info("TXT Report Generated")
     logger.info("CSV Report Generated")
-    logger.info("HTML Report Generated")
+    
 
     print("\n" + "=" * 60)
     print("Reports Generated Successfully")
     print("=" * 60)
     print(f"TXT  : {txt_path}")
     print(f"CSV  : {csv_path}")
-    print(f"HTML : {html_path}")
+    
 
 
 if __name__ == "__main__":

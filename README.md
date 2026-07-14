@@ -1,6 +1,6 @@
 # Validation Log Analysis Framework
 
-A Python-based automation framework for parsing, analyzing, and reporting validation logs. This project demonstrates how validation engineers can automate regression log analysis and generate professional reports in TXT, CSV, and HTML formats.
+A Python-based automation framework for parsing, analyzing, and reporting validation logs. This project demonstrates how validation engineers can automate regression log analysis and generate professional reports in TXT and CSV formats.
 
 ---
 
@@ -12,7 +12,6 @@ A Python-based automation framework for parsing, analyzing, and reporting valida
 - Overall regression summary
 - TXT report generation
 - CSV report generation
-- HTML report generation
 - Logging support
 - Exception handling
 - Modular Python architecture
@@ -38,9 +37,9 @@ A Python-based automation framework for parsing, analyzing, and reporting valida
              +------------------+
              | Report Generator |
              +------------------+
-                │      │      │
-                ▼      ▼      ▼
-              TXT    CSV    HTML
+                │             │
+                ▼             ▼
+              TXT            CSV
 ```
 
 ---
@@ -82,7 +81,6 @@ Validation-Log-Analysis-Framework
 - pathlib
 - logging
 - csv
-- HTML
 - Exception Handling
 
 ---
@@ -93,7 +91,6 @@ The framework automatically generates:
 
 - Validation_Report.txt
 - Validation_Report.csv
-- Validation_Report.html
 - validation.log
 
 ---
@@ -103,12 +100,6 @@ The framework automatically generates:
 ### Terminal Output
 
 ![Terminal Output](screenshots/terminal_output.png)
-
----
-
-### HTML Dashboard
-
-![HTML Dashboard](screenshots/html_report.png)
 
 ---
 
