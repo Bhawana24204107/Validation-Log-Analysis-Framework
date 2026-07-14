@@ -97,9 +97,13 @@ The framework automatically generates:
 
 ## Screenshots
 
-### Terminal Output
+### Terminal Output1
 
-![Terminal Output](screenshots/terminal_output.png)
+![Terminal Output](screenshots/terminal_output1.png)
+
+### Terminal Output2
+
+![Terminal Output](screenshots/terminal_output2.png)
 
 ---
 
