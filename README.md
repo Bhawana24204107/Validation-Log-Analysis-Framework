@@ -129,4 +129,4 @@ This framework is useful for:
 
 M.Tech VLSI Design
 
-Validation Automation | Python | SystemVerilog | UVM | Post-Silicon Validation
+Validation Automation | Python | Post-Silicon Validation
