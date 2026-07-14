@@ -98,6 +98,20 @@ The framework automatically generates:
 
 ---
 
+## Screenshots
+
+### Terminal Output
+
+![Terminal Output](screenshots/terminal_output.png)
+
+---
+
+### HTML Dashboard
+
+![HTML Dashboard](screenshots/html_report.png)
+
+---
+
 ## Future Enhancements
 
 - Configuration file (`config.json`)
@@ -129,4 +143,4 @@ This framework is useful for:
 
 M.Tech VLSI Design
 
-Validation Automation | Python | SystemVerilog | UVM | Post-Silicon Validation
+Validation Automation | Python | Post-Silicon Validation
