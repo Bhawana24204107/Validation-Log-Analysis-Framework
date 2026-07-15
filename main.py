@@ -22,6 +22,7 @@ def main():
     }
 
     log_files = parser.get_log_files()
+    logger.info(f"Found {len(log_files)} log files")
 
     print("=" * 60)
     print("Validation Log Analysis")
@@ -64,6 +65,7 @@ def main():
 
     logger.info("TXT Report Generated")
     logger.info("CSV Report Generated")
+    logger.info(f"Processed {len(log_files)} log files successfully")
     
 
     print("\n" + "=" * 60)
@@ -71,8 +73,9 @@ def main():
     print("=" * 60)
     print(f"TXT  : {txt_path}")
     print(f"CSV  : {csv_path}")
-    
+    logger.close()
 
 
 if __name__ == "__main__":
     main()
+
